@@ -1,0 +1,44 @@
+.keyBox {
+    align-items: center;
+    display: flex;
+    height: 25%;
+    justify-content: center;
+    transition: background-color 0.3s linear;
+    padding: 8px;
+    border-radius: 15px;
+  }
+  
+  .keyBox:hover {
+    cursor: pointer;
+    background-color: chocolate;
+  }
+
+  .numbersContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 80%;
+    width: 75%;
+  }
+  
+  .operatorsContainer {
+    display: grid;
+    margin-top: -64px;
+    width: 25%;
+    height: 50%;
+  }
+  
+  .submitContainer {
+    right: 9%;
+    width: 40%;
+    bottom: 6%;
+    position: absolute;
+  }
+
+  .keyContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 2%;
+    background: white;
+    position: relative;
+  }

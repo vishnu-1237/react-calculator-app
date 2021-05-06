@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.box {
+    font-size: 27px;
+    color: white;
+    padding: 10px;
+}
